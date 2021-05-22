@@ -3,3 +3,16 @@ canvas {
   top: 0;
   left: 0;
 }
+
+main {
+  width: 100vw;
+  color:white;
+  z-index: 99;
+  position: absolute;
+  height: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+}
